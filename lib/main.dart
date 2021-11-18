@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:studi_kasus/login_page.dart';
-import 'splash_screen.dart';
 
 void main() {
   runApp(MyApp());
