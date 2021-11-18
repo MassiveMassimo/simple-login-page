@@ -12,9 +12,7 @@ class _RegisterPageState extends State<RegisterPage> {
   bool passwordVisible = false;
   bool passwordConfrimationVisible = false;
   void togglePassword() {
-    setState(() {
-      passwordVisible = !passwordVisible;
-    });
+    print("register");
   }
 
   @override

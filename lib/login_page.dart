@@ -12,9 +12,7 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   bool passwordVisible = false;
   void togglePassword() {
-    setState(() {
-      passwordVisible = !passwordVisible;
-    });
+    print("login");
   }
 
   @override
